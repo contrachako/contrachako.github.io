@@ -1,0 +1,175 @@
+body {
+    color: #222222;
+    background-color: #f0f0f0;
+    font-family:  "Times", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+}
+
+h1, h2, h3, h4 {
+  padding: 0;
+  margin: 0;
+}
+
+dt, dd, li {
+  font-size: 0.9em;
+}
+
+div#frame {
+  position: absolute;
+  display: flex;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 80%;
+  /*max-width: 800px;*/
+  min-width: 650px;
+  height: 80%;
+  padding: 7px;
+  border-radius: 3px;
+  background: #d0d0d0;
+}
+
+.sub {
+	float: left;
+	position: relative;
+  /*padding-bottom: 32768px;
+  margin-bottom: -32768px;*/
+	width: 10em;
+  min-width: 10em;
+}
+
+.menu nav {
+  border-radius: 3px;
+  margin-top: 0.5em;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  list-style: none;
+	margin-bottom: 0.5em;
+}
+
+.menu a {
+	border-radius: 3px;
+	display: block;
+	text-decoration: none;
+	padding: 0.5em;
+	color: #222222;
+	background: #f5f5f5;
+}
+
+.menu a:hover {
+	color: #808080;
+	background: #ffffff;
+}
+
+.menu h1 {
+  margin: 0 auto;
+  font-size: 1.2em;
+  font-weight: normal;
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  background: #0F2540;
+  border-radius: 3px;
+  display: block;
+  text-decoration: none;
+  padding: 1.5em;
+}
+
+.main {
+  /*position: relative;*/
+  width: 100%;
+  /*min-width: 400px;*/
+  padding: 1em;
+  margin-left: 7px;
+  border-radius: 3px;
+  overflow: scroll;
+  background: #b0c4de;
+}
+
+.main a {
+	color: #362f78;
+  text-decoration: none;
+}
+
+.main a:hover {
+	color: #726DA0;
+  text-decoration: none;
+}
+
+.main h1 {
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.main h2 {
+  text-align: left;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-bottom: #4b535e solid thin;
+}
+
+.main h3 {
+  font-size: 1.1em;
+  text-decoration: none;
+  border-bottom: #4b535e dotted thin;
+}
+
+.main h4 {
+  background: #fff;
+  padding: 0.2em;
+}
+
+.icon {
+  height: 1em;
+  padding: 0 0.3em 0 0;
+  vertical-align: middle;
+}
+
+.topimg {
+  height: 60%;
+}
+
+.indent {
+  padding-left: 2em;
+  font-size: 0.9em;
+}
+
+
+span {
+  font-size: 0.9em;
+}
+
+.flexiblebox {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.margin li {
+  margin-bottom: 0.7em;
+  font-size: 0.9em;
+}
+
+.para p{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#music a {
+  color: #222222;
+}
+
+table td {
+  padding: 3px 10px;
+}
