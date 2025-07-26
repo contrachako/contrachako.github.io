@@ -1,7 +1,7 @@
 body {
-    color: #222222;
-    background-color: #f0f0f0;
-    font-family:  "Times", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  color: #222222;
+  background-color: #f0f0f0;
+  font-family: "Times", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
 }
 
 h1, h2, h3, h4 {
@@ -9,7 +9,7 @@ h1, h2, h3, h4 {
   margin: 0;
 }
 
-dt, dd, li {
+dt, dd {
   font-size: 0.9em;
 }
 
@@ -23,7 +23,6 @@ div#frame {
   bottom: 0;
   margin: auto;
   width: 80%;
-  /*max-width: 800px;*/
   min-width: 650px;
   height: 80%;
   padding: 7px;
@@ -32,11 +31,8 @@ div#frame {
 }
 
 .sub {
-	float: left;
-	position: relative;
-  /*padding-bottom: 32768px;
-  margin-bottom: -32768px;*/
-	width: 10em;
+  position: relative;
+  width: 10em;
   min-width: 10em;
 }
 
@@ -52,21 +48,21 @@ div#frame {
 
 .menu li {
   list-style: none;
-	margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .menu a {
-	border-radius: 3px;
-	display: block;
-	text-decoration: none;
-	padding: 0.5em;
-	color: #222222;
-	background: #f5f5f5;
+  border-radius: 3px;
+  display: block;
+  text-decoration: none;
+  padding: 0.5em;
+  color: #222222;
+  background: #f5f5f5;
 }
 
 .menu a:hover {
-	color: #808080;
-	background: #ffffff;
+  color: #808080;
+  background: #ffffff;
 }
 
 .menu h1 {
@@ -84,41 +80,35 @@ div#frame {
 }
 
 .main {
-  /*position: relative;*/
   width: 100%;
-  /*min-width: 400px;*/
   padding: 1em;
   margin-left: 7px;
   border-radius: 3px;
-  overflow: scroll;
+  overflow: auto;
   background: #b0c4de;
 }
 
 .main a {
-	color: #362f78;
+  color: #362f78;
   text-decoration: none;
 }
 
 .main a:hover {
-	color: #726DA0;
-  text-decoration: none;
+  color: #726DA0;
 }
 
 .main h1 {
   font-size: 1em;
-  text-decoration: none;
 }
 
 .main h2 {
   text-align: left;
   font-size: 1.2em;
-  text-decoration: none;
   border-bottom: #4b535e solid thin;
 }
 
 .main h3 {
   font-size: 1.1em;
-  text-decoration: none;
   border-bottom: #4b535e dotted thin;
 }
 
@@ -130,7 +120,6 @@ div#frame {
 .icon {
   height: 1em;
   padding: 0 0.3em 0 0;
-  vertical-align: middle;
 }
 
 .topimg {
@@ -139,11 +128,6 @@ div#frame {
 
 .indent {
   padding-left: 2em;
-  font-size: 0.9em;
-}
-
-
-span {
   font-size: 0.9em;
 }
 
@@ -161,7 +145,7 @@ span {
   font-size: 0.9em;
 }
 
-.para p{
+.para p {
   display: inline-block;
   vertical-align: middle;
 }
