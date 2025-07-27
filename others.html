@@ -1,219 +1,189 @@
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 
- <head>
-   <meta charset = "UTF-8">
-   <title>Others - Chako Takahashi</title>
-   <link rel="stylesheet" href="./css/style.css" type="text/css">
-   <link rel="shortcut icon" href="./favicon.ico">
- </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Others - Chako Takahashi</title>
+  <link rel="stylesheet" href="./css/style.css" type="text/css">
+  <link rel="icon" href="./favicon.ico">
+</head>
 
- <body>
+<body>
+  <div id="frame">
 
-   <div id = "frame">
-
-    <div class = "sub">
-      <div class = "menu">
-        <h1>Chako<br>Takahashi</h1>
-        <nav>
-          <ul>
-            <li><a href="index.html"><img class="icon" src="./img/bassclef.png" alt="icon">ホーム</a></li>
-            <li><a href="profile.html"><img class="icon" src="./img/bassclef.png" alt="icon">プロフィール</a></li>
-            <li><a href="research.html"><img class="icon" src="./img/bassclef.png" alt="icon">研究</a></li>
-            <li><a href="others.html"><img class="icon" src="./img/bassclef.png" alt="icon">その他</a></li>
-            <!-- <li><a href="./en/index.html"><img class="icon" src="./img/bassclef.png" alt="icon">English</a></li> -->
-          </ul>
-        </nav>
+    <aside class="menu">
+      <h1>Chako<br>Takahashi</h1>
+      <nav>
+        <ul>
+          <li><a href="./index.html"><img class="icon" src="./img/bassclef.png" alt="icon">ホーム</a></li>
+          <li><a href="./profile.html"><img class="icon" src="./img/bassclef.png" alt="icon">プロフィール</a></li>
+          <li><a href="./research.html"><img class="icon" src="./img/bassclef.png" alt="icon">研究</a></li>
+          <li><a href="./others.html"><img class="icon" src="./img/bassclef.png" alt="icon">その他</a></li>
+          <!-- <li><a href="./en/index.html"><img class="icon" src="./img/bassclef.png" alt="icon">English</a></li> -->
+        </ul>
+      </nav>
+      <div class="copyright">
+        &copy; Chako Takahashi 2025
       </div>
-    </div>
+    </aside>
 
-     <div class = "main">
+    <main class="main">
 
-       <h2>その他</h2>
-       <br>
+      <h2>その他</h2>
+      <br>
 
-       <div onclick="obj=document.getElementById('topimg').style; obj.display=(obj.display=='none')?'block':'none';">
-         <a style="cursor:pointer;"><h3>トップページの写真</h3></a><br>
-       </div>
+      <div onclick="obj=document.getElementById('topimg').style; obj.display=(obj.display=='none')?'block':'none';">
+        <a style="cursor:pointer;"><h3>トップページの写真</h3></a><br>
+      </div>
 
-       <div id="topimg" style="display: none; clear: both; text-align:center;">
+      <div id="topimg" style="display: none;">
 
-        <table align="center">
+        <div class="photo-row">
+          <img src="./img/pigeons.jpg" alt="pigeons" class="photo-img">
+          <div class="photo-desc">
+            場所：工学部8号館と9号館の間の渡り廊下の下（山形県米沢市城南）<br>
+            撮影：2023年3月9日
+          </div>
+        </div>
 
-          <tr>
-            <td>
-              <p><img src="./img/pigeons.jpg" alt="pigeons" width="150px"></p>
-            </td>
-            <td>
-              場所：工学部8号館と9号館の間の渡り廊下の下（山形県米沢市城南）<br>
-              撮影：2023年3月9日
-            </td>
-          </tr>
+        <div class="photo-row">
+          <img src="./img/8ducks.jpeg" alt="8ducks" class="photo-img">
+          <div class="photo-desc">
+            場所：堀立川（山形県米沢市林泉寺）<br>
+            撮影：2022年8月1日
+          </div>
+        </div>
 
-          <tr>
-            <td>
-              <p><img src="./img/8ducks.jpeg" alt="8ducks" width="150px"></p>
-            </td>
-            <td>
-              場所：堀立川（山形県米沢市林泉寺）<br>
-              撮影：2022年8月1日
-            </td>
-          </tr>
+        <div class="photo-row">
+          <img src="./img/ducks.jpeg" alt="ducks" class="photo-img">
+          <div class="photo-desc">
+            場所：堀立川（山形県米沢市林泉寺）<br>
+            撮影：2022年4月7日
+          </div>
+        </div>
 
-          <tr>
-            <td>
-              <p><img src="./img/ducks.jpeg" alt="ducks" width="150px"></p>
-            </td>
-            <td>
-              場所：堀立川（山形県米沢市林泉寺）<br>
-              撮影：2022年4月7日
-            </td>
-          </tr>
+        <div class="photo-row">
+          <img src="./img/r310_mikkabi.jpg" alt="mikkabi" class="photo-img">
+          <div class="photo-desc">
+            場所：三ヶ日みかん直売所（静岡県浜松市三ヶ日町大崎）<br>
+            撮影：2020年3月15日
+          </div>
+        </div>
 
-          <tr>
-            <td>
-              <p><img src="./img/r310_mikkabi.jpg" alt="mikkabi" width="150px"></p>
-            </td>
-            <td>
-              場所：三ヶ日みかん直売所（静岡県浜松市三ヶ日町大崎）<br>
-              撮影：2020年3月15日
-            </td>
-          </tr>
+        <div class="photo-row">
+          <img src="./img/R286_sekizawaic.jpg" alt="sekizawa" class="photo-img">
+          <div class="photo-desc">
+            場所：関沢IC前（山形県山形市大字関沢）<br>
+            撮影：2019年12月7日
+          </div>
+        </div>
 
-          <tr>
-            <td>
-              <p><img src="./img/R286_sekizawaic.jpg" alt="sekizawa" width="150px"></p>
-            </td>
-            <td>
-              場所：関沢IC前（山形県山形市大字関沢）<br>
-              撮影：2019年12月7日
-            </td>
-          </tr>
+        <div class="photo-row">
+          <img src="./img/serow.jpg" alt="serow" class="photo-img">
+          <div class="photo-desc">
+            場所：宮城県仙台市青葉区荒巻字青葉地内<br>
+            撮影：2019年5月24日
+          </div>
+        </div>
 
-          <tr>
-            <td>
-              <p><img src="./img/serow.jpg" alt="serow" width="150px"></p>
-            </td>
-            <td>
-              場所：宮城県仙台市青葉区荒巻字青葉地内<br>
-              撮影：2019年5月24日
-            </td>
-          </tr>
+        <div class="photo-row">
+          <img src="./img/R286_myg.jpg" alt="R286_myg" class="photo-img">
+          <div class="photo-desc">
+            場所：釜房ダム（宮城県柴田郡川崎町）<br>
+            撮影：2018年9月22日
+          </div>
+        </div>
 
-          <tr>
-            <td>
-              <p><img src="./img/R286_myg.jpg" alt="R286_myg" width="150px"></p>
-            </td>
-            <td>
-              場所：釜房ダム（宮城県柴田郡川崎町）<br>
-              撮影：2018年9月22日
-            </td>
-          </tr>
+        <div class="photo-row">
+          <img src="./img/oisaka_myg.jpg" alt="oisaka_myg" class="photo-img">
+          <div class="photo-desc">
+            場所：林道笈坂〜石保線（宮城県仙台市泉区）<br>
+            撮影：2017年12月29日
+          </div>
+        </div>
 
-          <tr>
-            <td>
-              <p><img src="./img/oisaka_myg.jpg" alt="oisaka_myg" width="150px"></p>
-            </td>
-            <td>
-              場所：林道笈坂〜石保線（宮城県仙台市泉区）<br>
-              撮影：2017年12月29日
-            </td>
-          </tr>
+        <div class="photo-row">
+          <img src="./img/raccoon.jpg" alt="raccoon" class="photo-img">
+          <div class="photo-desc">
+            場所：宮城県仙台市青葉区荒巻字青葉地内<br>
+            撮影：2017年11月16日
+          </div>
+        </div>
 
-          <tr>
-            <td>
-              <p><img src="./img/raccoon.jpg" alt="raccoon" width="150px"></p>
-            </td>
-            <td>
-              場所：宮城県仙台市青葉区荒巻字青葉地内<br>
-              撮影：2017年11月16日
-            </td>
-          </tr>
+        <div class="photo-row">
+          <img src="./img/r318_ymgt.jpg" alt="r318" class="photo-img">
+          <div class="photo-desc">
+            場所：山形県道318号新庄長沢尾花沢線<br>
+            撮影：2017年8月28日
+          </div>
+        </div>
 
-          <tr>
-            <td>
-              <p><img src="./img/r318_ymgt.jpg" alt="r318" width="150px"></p>
-            </td>
-            <td>
-              場所：山形県道318号新庄長沢尾花沢線<br>
-              撮影：2017年8月28日
-            </td>
-          </tr>
+        <div class="photo-row">
+          <img src="./img/r234_ymgt.jpg" alt="r234" class="photo-img">
+          <div class="photo-desc">
+            場所：山形県道234号綱木小野川館山線<br>
+            撮影：2016年1月11日
+          </div>
+        </div>
 
-          <tr>
-            <td>
-              <p><img src="./img/r234_ymgt.jpg" alt="r234" width="150px"></p>
-            </td>
-            <td>
-              場所：山形県道234号綱木小野川館山線<br>
-              撮影：2016年1月11日
-            </td>
-          </tr>
+      </div>
 
-        </table>
+      <br>
 
-       </div>
+      <div onclick="obj=document.getElementById('music').style; obj.display=(obj.display=='none')?'block':'none';">
+        <a style="cursor:pointer;"><h3>その他の活動</h3></a><br>
+      </div>
 
-
-       <div class="topimg" style="display: none; clear: both; text-align:center;">
-
-       </div>
-
-       <br>
-
-       <div onclick="obj=document.getElementById('music').style; obj.display=(obj.display=='none')?'block':'none';">
-         <a style="cursor:pointer;"><h3>その他の活動</h3></a><br>
-       </div>
-
-       <div id="music" style="display: none; clear: both; text-align: left;">
-         今後の演奏会出演予定<br>
-         <p class="indent">
-          <ul>
-          <!-- <li>2022年8月7日（日）ヴィオラ・コントラバス二重奏：第11回創夢展　アフロディーテコンサート，悠創館（悠創の丘）展示室，山形県山形市</li>
-          <li>2022年11月5日（土）山形フィルハーモニー交響楽団：山形フィルハーモニー交響楽団　第61回定期演奏会，山形市民会館，山形県山形市</li>
-          <li>2022年11月20日（日）【客演】米沢フィルハーモニー管弦楽団：第58回定期演奏会，伝国の杜　置賜文化ホール，山形県米沢市</li>
-          <li>2022年12月11日（土）山形フィルハーモニー交響楽団：第66回山形市民合同音楽祭，山形市民会館，山形県山形市</li> -->
-          <li>2023年5月20日（土）山形フィルハーモニー交響楽団：2023 山フィル スプリングコンサート，山形市民会館，山形県山形市</li>
-          <li>2023年7月2日（日）山形吹奏楽研究会吹奏楽団：第39回平和コンサート　器楽・合唱の部，山形市民会館，山形県山形市</li>
-          <li>2023年8月6日（日）ヴィオラ・コントラバス二重奏：第12回創夢展　アフロディーテコンサート，悠創館（悠創の丘）展示室，山形県山形市</li>
-          <li>2023年10月29日（日）湯沢市民管弦楽団：湯沢市民管弦楽団 第66回定期演奏会，湯沢文化会館，秋田県湯沢市</li>
-          <li>2023年11月4日（土）山形フィルハーモニー交響楽団：山形フィルハーモニー交響楽団 第62回定期演奏会，山形市民会館，山形県山形市</li>
-          <li>2023年11月18日（土）山形吹奏楽研究会吹奏楽団：未定，未定，山形県山形市</li>
-          <li>2023年12月3日（日）名称未定：名称未定，未定，宮城県角田市</li>
-          <li>2023年12月10日（日）山形フィルハーモニー交響楽団：第67回山形市民合同音楽祭，山形市民会館，山形県山形市</li>
-          <li>2024年5月5日（土）アンサンブルJOY：名称未定，会場未定，山形県山形市</li>
-          <li>2024年5月25日（土）山形フィルハーモニー交響楽団：2024 山フィル スプリングコンサート（仮称），山形市民会館，山形県山形市</li>
-          <!-- <li>2022年5月21日（土）山形フィルハーモニー交響楽団：2022山フィルファミリーコンサート，山形市民会館，山形県山形市</li>
-          <li>2022年5月4日（水・祝）アンサンブルJOY：第三回アンサンブルJOYコンサート，文翔館議場ホール，山形県山形市<br></li>
-          <li>2022年4月30日（日）山形県アマチュアオーケストラ連盟：<a href="https://yamagata-bunka.jp/event/2022/04/30038744.html" target="_blank">山形県合唱連盟創立70周年事業合唱の祭典</a>，やまぎん県民ホール（山形県総合文化芸術館），山形県山形市</li>
-          <li>2021年11月6日（土）山形フィルハーモニー交響楽団：第60回記念定期演奏会，山形市民会館，山形県山形市</li>
-          <li>2021年10月10日（日）豊橋技術科学大学吹奏楽団：第37回定期演奏会，ライフポートとよはし，愛知県豊橋市</li>
-          <li>2021年6月19日（土）山形県アマチュアオーケストラ連盟：【開催延期】<a href="https://yamagata-bunka.jp/event/2020/05/10038178.html" target="_blank">山形県合唱連盟創立70周年事業合唱の祭典</a>，やまぎん県民ホール（山形県総合文化芸術館），山形県山形市</li>
-          <li>2021年5月21日（土）山形フィルハーモニー交響楽団：【開催延期】山フィル希望コンサート，山形市民会館，山形県山形市</li>
-          <li>2021年4月12日（月）豊橋技術科学大学吹奏楽団：入学式祝賀演奏，豊橋技科大図書館前，愛知県豊橋市</li>
-          <li>2020年12月6日（日）豊橋技術科学大学吹奏楽団：<a href="https://twitter.com/fuyupuchi" target="_blank">冬のぷち演奏会</a>，豊橋駅南口駅前広場（タリーズ前），愛知県豊橋市</li> -->
-          </ul>
+      <div id="music" style="display: none;">
+        今後の演奏会出演予定<br>
+        <p class="indent">
+        <ul>
+        <!-- <li>2022年8月7日（日）ヴィオラ・コントラバス二重奏：第11回創夢展　アフロディーテコンサート，悠創館（悠創の丘）展示室，山形県山形市</li>
+        <li>2022年11月5日（土）山形フィルハーモニー交響楽団：山形フィルハーモニー交響楽団　第61回定期演奏会，山形市民会館，山形県山形市</li>
+        <li>2022年11月20日（日）【客演】米沢フィルハーモニー管弦楽団：第58回定期演奏会，伝国の杜　置賜文化ホール，山形県米沢市</li>
+        <li>2022年12月11日（土）山形フィルハーモニー交響楽団：第66回山形市民合同音楽祭，山形市民会館，山形県山形市</li> -->
+        <li>2023年5月20日（土）山形フィルハーモニー交響楽団：2023 山フィル スプリングコンサート，山形市民会館，山形県山形市</li>
+        <li>2023年7月2日（日）山形吹奏楽研究会吹奏楽団：第39回平和コンサート　器楽・合唱の部，山形市民会館，山形県山形市</li>
+        <li>2023年8月6日（日）ヴィオラ・コントラバス二重奏：第12回創夢展　アフロディーテコンサート，悠創館（悠創の丘）展示室，山形県山形市</li>
+        <li>2023年10月29日（日）湯沢市民管弦楽団：湯沢市民管弦楽団 第66回定期演奏会，湯沢文化会館，秋田県湯沢市</li>
+        <li>2023年11月4日（土）山形フィルハーモニー交響楽団：山形フィルハーモニー交響楽団 第62回定期演奏会，山形市民会館，山形県山形市</li>
+        <li>2023年11月18日（土）山形吹奏楽研究会吹奏楽団：未定，未定，山形県山形市</li>
+        <li>2023年12月3日（日）名称未定：名称未定，未定，宮城県角田市</li>
+        <li>2023年12月10日（日）山形フィルハーモニー交響楽団：第67回山形市民合同音楽祭，山形市民会館，山形県山形市</li>
+        <li>2024年5月5日（土）アンサンブルJOY：名称未定，会場未定，山形県山形市</li>
+        <li>2024年5月25日（土）山形フィルハーモニー交響楽団：2024 山フィル スプリングコンサート（仮称），山形市民会館，山形県山形市</li>
+        <!-- <li>2022年5月21日（土）山形フィルハーモニー交響楽団：2022山フィルファミリーコンサート，山形市民会館，山形県山形市</li>
+        <li>2022年5月4日（水・祝）アンサンブルJOY：第三回アンサンブルJOYコンサート，文翔館議場ホール，山形県山形市<br></li>
+        <li>2022年4月30日（日）山形県アマチュアオーケストラ連盟：<a href="https://yamagata-bunka.jp/event/2022/04/30038744.html" target="_blank">山形県合唱連盟創立70周年事業合唱の祭典</a>，やまぎん県民ホール（山形県総合文化芸術館），山形県山形市</li>
+        <li>2021年11月6日（土）山形フィルハーモニー交響楽団：第60回記念定期演奏会，山形市民会館，山形県山形市</li>
+        <li>2021年10月10日（日）豊橋技術科学大学吹奏楽団：第37回定期演奏会，ライフポートとよはし，愛知県豊橋市</li>
+        <li>2021年6月19日（土）山形県アマチュアオーケストラ連盟：【開催延期】<a href="https://yamagata-bunka.jp/event/2020/05/10038178.html" target="_blank">山形県合唱連盟創立70周年事業合唱の祭典</a>，やまぎん県民ホール（山形県総合文化芸術館），山形県山形市</li>
+        <li>2021年5月21日（土）山形フィルハーモニー交響楽団：【開催延期】山フィル希望コンサート，山形市民会館，山形県山形市</li>
+        <li>2021年4月12日（月）豊橋技術科学大学吹奏楽団：入学式祝賀演奏，豊橋技科大図書館前，愛知県豊橋市</li>
+        <li>2020年12月6日（日）豊橋技術科学大学吹奏楽団：<a href="https://twitter.com/fuyupuchi" target="_blank">冬のぷち演奏会</a>，豊橋駅南口駅前広場（タリーズ前），愛知県豊橋市</li> -->
+        </ul>
+      </p>
+        活動歴<br>
+        <p class="indent">
+        弦楽合奏（コントラバス）<br>
+        2019年4月 &ndash; 現在：アンサンブルJOY<br>
+        <br>
+        オーケストラ（コントラバス）<br>
+        2011年12月 &ndash; 現在：<a href="http://ks1.kj.yamagata-u.ac.jp/~yamaphil/" target="_blank">山形フィルハーモニー交響楽団</a><br>
+        2011年4月 &ndash; 2013年11月：<a href="https://twitter.com/academy_strings?s=20" target="_blank">山形大学工学部・米沢女子短期大学アカデミーストリングス合奏団</a><br>
+        2011年4月 &ndash; 2013年11月：<a href="https://twitter.com/phil_yamagata?s=20" target="_blank">山形大学フィルハーモニーオーケストラ</a><br>
+        <br>
+        吹奏楽<br>
+        2020年6月 &ndash; 2021年10月：<a href="https://tutwo.sakura.ne.jp/" target="_blank">豊橋技術科学大学吹奏楽団</a>（トロンボーン）<br>
+        2008年4月 &ndash; 2011年3月：<a href="http://yamachuwindorchestra.amebaownd.com/" target="_blank">山形県立山形中央高等学校吹奏楽部</a>（コントラバス）<br>
+        2005年4月 &ndash; 2008年3月：中学校吹奏楽部（コントラバス -> チューバ -> コントラバス）<br>
         </p>
-         活動歴<br>
-         <p class="indent">
-          弦楽合奏（コントラバス）<br>
-          2019年4月 &ndash; 現在：アンサンブルJOY<br>
-          <br>
-          オーケストラ（コントラバス）<br>
-          2011年12月 &ndash; 現在：<a href="http://ks1.kj.yamagata-u.ac.jp/~yamaphil/" target="_blank">山形フィルハーモニー交響楽団</a><br>
-          2011年4月 &ndash; 2013年11月：<a href="https://twitter.com/academy_strings?s=20" target="_blank">山形大学工学部・米沢女子短期大学アカデミーストリングス合奏団</a><br>
-          2011年4月 &ndash; 2013年11月：<a href="https://twitter.com/phil_yamagata?s=20" target="_blank">山形大学フィルハーモニーオーケストラ</a><br>
-          <br>
-          吹奏楽<br>
-          2020年6月 &ndash; 2021年10月：<a href="https://tutwo.sakura.ne.jp/" target="_blank">豊橋技術科学大学吹奏楽団</a>（トロンボーン）<br>
-          2008年4月 &ndash; 2011年3月：<a href="http://yamachuwindorchestra.amebaownd.com/" target="_blank">山形県立山形中央高等学校吹奏楽部</a>（コントラバス）<br>
-          2005年4月 &ndash; 2008年3月：中学校吹奏楽部（コントラバス -> チューバ -> コントラバス）<br>
-         </p>
-       </div>
+      </div>
 
-     </div>
+    </main>
 
-   </div>
-
- </body>
+  </div>
+</body>
 
 </html>
