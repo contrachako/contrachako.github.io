@@ -1,7 +1,7 @@
 body {
   color: #222222;
   background-color: #f0f0f0;
-  font-family:  "Times", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  font-family: "Times", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
 }
 
 h1, h2, h3 {
@@ -168,8 +168,14 @@ div#frame {
   margin-right: 0.5em;
 }
 
+/* 不要？ */
 .margin li {
   margin-bottom: 0.7em;
+}
+
+.h3-contents ul, ol {
+  padding-left: 2em;
+  margin-left: 0em;
 }
 
 .photo-row {
@@ -190,3 +196,49 @@ div#frame {
   text-align: left;
   font-size: 0.98em;
 }
+
+/* 5.8.2025 下記がだいぶ未定。フォント変更を検討 */
+
+/* .date-content-list dt {
+  padding-left: 2em;
+  margin-left: 0em;
+  width: 5em;
+}
+.date-content-list dd {
+  margin-left: 1em;
+} */
+
+/* dl.date-content-list dt {
+  display: inline-block;
+  width: 4em;
+  text-align: right;
+}
+
+dl.date-content-list dd {
+  display: inline-block;
+  margin-left: 1em;
+/* _  margin: 0 0 0.5em 0; 下に少し余白をつけて行間を調整 */
+/* }  */
+
+/* .date-content-list {
+  display: grid;
+  grid-template-columns: 4em 1fr;
+  column-gap: 1em;
+  row-gap: 0.5em;
+  align-items: start;
+}
+
+.date-content-list dt,
+.date-content-list dd {
+  margin: 0;
+  display: flex;         /* ← これも追加 */
+  /* align-items: flex-start;
+}
+
+
+.date-content-list dt {
+  background: rgba(255, 0, 0, 0.1);
+}
+.date-content-list dd {
+  background: rgba(0, 0, 255, 0.1);
+} */ 
