@@ -1,3 +1,4 @@
+
 body {
   color: #222222;
   background-color: #f0f0f0;
@@ -130,12 +131,20 @@ div#frame {
   vertical-align: middle;
 }
 
-.main-box {
+.index-box {
   display: flex;
   flex-direction: column;
   /* align-items: left; */
   /* justify-content: center; */
   max-width: 450px;
+  margin: 0 auto;
+  gap: 1.5em;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 93%;
   margin: 0 auto;
   gap: 1.5em;
 }
@@ -197,48 +206,29 @@ div#frame {
   font-size: 0.98em;
 }
 
-/* 5.8.2025 下記がだいぶ未定。フォント変更を検討 */
-
-/* .date-content-list dt {
-  padding-left: 2em;
-  margin-left: 0em;
-  width: 5em;
-}
-.date-content-list dd {
-  margin-left: 1em;
-} */
-
-/* dl.date-content-list dt {
-  display: inline-block;
-  width: 4em;
-  text-align: right;
-}
-
-dl.date-content-list dd {
-  display: inline-block;
-  margin-left: 1em;
-/* _  margin: 0 0 0.5em 0; 下に少し余白をつけて行間を調整 */
-/* }  */
-
-/* .date-content-list {
+.date-content-list {
   display: grid;
-  grid-template-columns: 4em 1fr;
+  grid-template-columns: 8em 1fr;
   column-gap: 1em;
-  row-gap: 0.5em;
   align-items: start;
+}
+
+.date-content-list.wide-date {
+  grid-template-columns: 8em 1fr;
+}
+
+.date-content-list.narrow-date {
+  grid-template-columns: 5em 1fr;
 }
 
 .date-content-list dt,
 .date-content-list dd {
+  display: inline-block;
   margin: 0;
-  display: flex;         /* ← これも追加 */
-  /* align-items: flex-start;
+  padding: 0;
+  line-height: 1.5em;
 }
-
 
 .date-content-list dt {
-  background: rgba(255, 0, 0, 0.1);
+  text-align: right;
 }
-.date-content-list dd {
-  background: rgba(0, 0, 255, 0.1);
-} */ 
